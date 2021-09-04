@@ -1,0 +1,244 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-09-04T06:12:02.166Z",
+        "line": 12,
+        "name": "entering valid username and password",
+        "description": "",
+        "id": "login-functionality;entering-valid-username-and-password;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 12468000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I load the \"https://opensource-demo.orangehrmlive.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://opensource-demo.orangehrmlive.com/",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefination.StepImplementation.loadTheUrl(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 680000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter admin into the username field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin",
+                  "offset": 8
+                }
+              ],
+              "location": "stepDefination.StepImplementation.enterUsername(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 132000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter pswd123 into the password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "pswd123",
+                  "offset": 8
+                }
+              ],
+              "location": "stepDefination.StepImplementation.enterPassword(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1525000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click the login button",
+            "match": {
+              "location": "stepDefination.StepImplementation.clickButton()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-04T06:12:17.184Z",
+        "line": 13,
+        "name": "entering valid username and password",
+        "description": "",
+        "id": "login-functionality;entering-valid-username-and-password;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 517000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I load the \"https://opensource-demo.orangehrmlive.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://opensource-demo.orangehrmlive.com/",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefination.StepImplementation.loadTheUrl(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 89000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter admin1 into the username field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin1",
+                  "offset": 8
+                }
+              ],
+              "location": "stepDefination.StepImplementation.enterUsername(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 100000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter pswd456 into the password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "pswd456",
+                  "offset": 8
+                }
+              ],
+              "location": "stepDefination.StepImplementation.enterPassword(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 478000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click the login button",
+            "match": {
+              "location": "stepDefination.StepImplementation.clickButton()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-09-04T06:12:18.385Z",
+        "line": 14,
+        "name": "entering valid username and password",
+        "description": "",
+        "id": "login-functionality;entering-valid-username-and-password;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 507000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I load the \"https://opensource-demo.orangehrmlive.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://opensource-demo.orangehrmlive.com/",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefination.StepImplementation.loadTheUrl(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 82000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter Admin into the username field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Admin",
+                  "offset": 8
+                }
+              ],
+              "location": "stepDefination.StepImplementation.enterUsername(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 111000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter admin123 into the password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin123",
+                  "offset": 8
+                }
+              ],
+              "location": "stepDefination.StepImplementation.enterPassword(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4747000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click the login button",
+            "match": {
+              "location": "stepDefination.StepImplementation.clickButton()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "login functionality",
+    "description": "",
+    "id": "login-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature%20File/loginPageData.feature",
+    "tags": []
+  }
+]
